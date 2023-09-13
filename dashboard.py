@@ -40,6 +40,6 @@ time.sleep(2)
 #settings
 driver.find_element(By.XPATH,"//span[normalize-space()='Setting']").click()
 time.sleep(2)
-
+print("FInished")
 driver.close()
 driver.quit()
