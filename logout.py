@@ -4,7 +4,9 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 import time
-
+"""
+login and logout
+"""
 
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 driver.implicitly_wait(10)
